@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    
+
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #06002C;
+    color: white;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.Simran{
+    color: #75F94C;
+    font-size: 30px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-sec{
+    background-color: #06002C;
+    color: white;
+    padding: 50px;
+}
+.hero-title{
+    font-size: 70px;
+}
+.hero-title span{
+    color: #75F94C;
+}
+.hero-para{
+    font-size: 40px;
+}
+.hero-para span{
+    color: #FFC300;
+}
+.hero-btn{
+    background-color: #FFC300;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 30px;
+    border: none;
+}
+.hero-img {
+    border-radius: 50%;
+    border: 5px solid #75F94C;
+    height: 400px;
+    width: 400px;
+}
+.hero-icons {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-size: 25px;
+    padding-top: 50px;
+
+}
+.about-sec {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    align-items: center;
+}
+.about-img {
+    border-radius: 100%;
+    border: 5px solid #75F94C;
+    height: 400px;
+    width: 400px;
+}
+.about-me {
+    align-items: center;
+    gap: 50px;
+}
+.about-me span {
+    color: red;
+    font-weight: 700;
+}
+.about-title {
+    font-size: 40px;
+    color: #06002C;
+    font-weight: 700;
+}
+.about-para {
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: justify;
+}
+.skill-sec{
+    background-color: #06002C;
+    padding: 50px;
+    color: white;
+    height: 400px;
+    font-size: 18px;
+}
+
+.skills-header{
+    display: flex;
+    gap: 50px;
+    text-align: justify;
+    padding-top: 50px;
+
+}
+
+.Fronted-img{
+    border-radius: 50%;
+    border: 5px solid #75F94C;
+    height: 60px;
+    width: 60px;
+}
+
+.ux-img{
+    border-radius: 50%;
+    border: 5px solid #75F94C;
+    height: 60px;
+    width: 60px;
+}
+
+.web-img{
+    border-radius: 50%;
+    border: 5px solid #75F94C;
+    height: 60px;
+    width: 60px;
+}
+
+.fronted-dev{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ux-design{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.web-performance{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.skills-header span{
+    color: #FFC300;
+    font-weight: 700;
+}
+
+.skill-para{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.skill-para span{
+    color: #75F94C;
+    font-weight: 700;
+}
+.education-sec {
+    padding: 50px;
+}
+.edu h2{
+    font-size: 40px;
+}
+.edu-DAV {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.edu-GURUKUL {
+    display: flex;
+     justify-content: space-between;
+     padding-top: 20px;
+}
+.edu-regional {
+    display: flex;
+     justify-content: space-between;
+     padding-top: 20px;
+}
+.contact-sec{
+    background-color: #06002c;
+    color: white;
+    padding: 50px;
+    height: 250px;
+}
+.telephone{
+    display: flex;
+    padding-top: 30px;
+    gap: 15px;
+}
+.mail,
+.address{
+    display: flex;
+    padding-top: 20px;
+    gap: 15px;
+}
+
+.contact span{
+    color: #75f94c;
+    font-weight:700;
+}
